@@ -1,0 +1,158 @@
+﻿html{
+   height:100%;
+
+   }
+
+body {
+  height:100%;
+  background-image:url(bg.jpg);
+}
+
+#all{
+   width:0px;
+   margin:auto;
+   font-family:nanumbarunpenr !important; 
+  
+  
+}
+
+#header{
+   height:100px;  
+   position:relative; 
+   width:1024px; 
+   left:50%; 
+   margin-left:-512px;
+   font-size:95px;
+   text-align:center;
+   font-family:nanumbarunpenr !important; 
+  
+   
+}
+
+#login{
+   float:right;
+
+  
+}
+#login input{
+   width:130px;
+   height:20px;
+   font-family:nanumbarunpenr !important; 
+  
+   }
+
+#login input[type="submit"] {
+   width:90px;
+   height:25px;
+   float:right;
+   background:rgb(136, 194, 214);
+   border-radius: 5px;
+   font-family:nanumbarunpenr !important; 
+  
+   
+}
+#navi { 
+   
+   height: 50px; 
+   padding: 0; 
+   margin: 0; 
+   width:1024px; 
+   left:50%; 
+   margin-left:-512px;
+   padding: 0px; 
+ 
+   
+}
+
+ul{
+  list-style-type: none;
+
+    
+  }
+
+#navi li { 
+    width:164px;
+   float:left;
+   text-align:center; 
+   position:relative;
+   line-height:40px;
+    background:rgb(136, 194, 214); 
+    border-radius:8px 8px 0px 0px; 
+   
+   
+}
+
+#navi li a { 
+   display: block; 
+   font-weight:600;
+   font-size:17px;   
+   padding: 5px 25px;
+   color: #fff;
+   text-decoration: none; 
+}
+#navi li a:hover { 
+   color:#fff;
+}
+#navi li ul {  
+   opacity: 0; 
+   position: absolute; 
+   left: 0;  
+   width: 164px; 
+   background:#FFD8D8;  
+   padding: 0; 
+   margin: 0;  
+}
+#navi li:hover ul { 
+   opacity: 1;
+}
+#navi li ul li { 
+   float: none; 
+   position: static; 
+   height: 0;
+   line-height: 0; 
+   background: none; 
+}
+#navi li:hover ul li { 
+   height: 30px; 
+   line-height: 20px; 
+   padding:5px 0;
+}
+#navi li ul li a { 
+   background: #FFD8D8; 
+   font-weight:600; 
+   font-size:14px;
+   color:#5D5D5D;
+}
+
+#navi li ul li a:hover { 
+   background: #FFA7A7; 
+}
+
+#navi>ul>li:hover{
+    background-color:rgb(136, 200, 290);
+    -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s; 
+}
+
+#navi li a:hover { 
+   color:#fff;
+    -webkit-transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      -ms-transition: all 0.1s;
+      -o-transition: all 0.1s;
+      transition: all 0.1s; 
+}
+
+
+
+#section{ 
+   position:absolute;
+   top:200px;
+   width:1024px; 
+   left:50%; 
+   margin-left:-512px;
+   }
+

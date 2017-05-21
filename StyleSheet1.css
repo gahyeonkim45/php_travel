@@ -1,0 +1,442 @@
+﻿html{
+   height:100%;
+
+   }
+
+body {
+  height:100%;
+  background-image:url(bg.jpg);
+}
+
+#all{
+   width:0px;
+   margin:auto;
+   font-family:nanumbarunpenr !important; 
+  
+  
+}
+
+#header{
+   height:125px;  
+   position:relative; 
+   width:1024px; 
+   left:50%; 
+   margin-left:-512px;
+   font-size:95px;
+   text-align:center;
+   font-family:nanumbarunpenr !important; 
+  
+   
+}
+
+#navi { 
+   
+   height: 50px; 
+   padding: 0; 
+   margin: 0; 
+   width:1024px; 
+   left:50%; 
+   margin-left:-512px;
+   padding: 0px; 
+ 
+   
+}
+
+ul{
+  list-style-type: none;
+      }
+
+
+#navi li { 
+    width:164px;
+	float:left;
+	text-align:center; 
+	position:relative;
+	line-height:40px;
+    background:rgb(136, 194, 214);
+    border-radius:8px 8px 0px 0px; 
+	
+	
+}
+
+#navi li a { 
+	display: block; 
+	font-weight:600;
+	font-size:17px;	
+	padding: 5px 25px;
+	color: #fff;
+	text-decoration: none; 
+}
+#navi li a:hover { 
+	color:#fff;
+}
+#navi li ul {  
+	opacity: 0; 
+	position: absolute; 
+	left: 0;  
+	width: 164px; 
+	background:#C2E2E8;  
+	padding: 0; 
+	margin: 0;  
+}
+#navi li:hover ul { 
+	opacity: 1;
+}
+#navi li ul li { 
+	float: none; 
+	position: static; 
+	height: 0;
+	line-height: 0; 
+	background: none; 
+}
+#navi li:hover ul li { 
+	height: 30px; 
+	line-height: 20px; 
+	padding:5px 0;
+}
+#navi li ul li a { 
+	background: #C2E2E8; 
+	font-weight:600; 
+	font-size:14px;
+	color:#5D5D5D;
+}
+
+#navi li ul li a:hover { 
+	background: rgb(136, 194, 214); 
+}
+
+#navi>ul>li:hover{
+    background-color:rgb(136, 194, 214);
+    -webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s; 
+}
+
+#navi li a:hover { 
+	color:#fff;
+    -webkit-transition: all 0.1s;
+		-moz-transition: all 0.1s;
+		-ms-transition: all 0.1s;
+		-o-transition: all 0.1s;
+		transition: all 0.1s; 
+}
+
+
+
+#section{ 
+   position:absolute;
+   top:280px;
+   width:1024px; 
+   left:50%; 
+   margin-left:-512px;
+   }
+
+
+#category{
+    position:absolute;
+	  margin-left: -402px;
+  margin-top: 90px;
+
+}
+
+#category li{ 
+  
+    width:125px;
+	float:left;
+	text-align:center; 
+	list-style-type:none;
+  
+		   
+	
+}
+
+#category a{
+    display: block; 
+	font-weight:600;
+	font-size:17px;	
+	padding: 5px;
+	color:#fff;
+	text-decoration: none;    
+    background:rgb(136, 194, 214);
+	 
+    
+    
+}
+
+#concert_info{
+     top:40px;
+     width: 770px;
+     height: 800px;
+	 position: absolute;
+	 left:150px;
+     border:1px solid rgb(213, 213, 213);
+     background-color:rgb(213, 213, 213); 
+     overflow:scroll;
+     display: inline-block;
+}
+
+#concert_info li {
+     
+   float:left;
+    list-style-type:none;
+    padding:30px 50px;
+   
+}
+
+#concert_info a{
+
+    text-decoration:none;
+    color:black;
+}
+
+#concert_info li img:hover{
+
+   opacity: 0.4;
+}
+#Trip_info{
+     top:40px;
+     width: 770px;
+     height: 800px;
+	 position: absolute;
+	 left:150px;
+     border:1px solid rgb(213, 213, 213);
+     background-color:rgb(213, 213, 213); 
+     overflow:scroll;
+     display: inline-block;
+}
+
+#Trip_info li {
+     
+   float:left;
+    list-style-type:none;
+    padding:30px 45px;
+   
+}
+
+#Trip_info a{
+
+    text-decoration:none;
+    color:black;
+}
+
+#Trip_info li img:hover{
+
+   opacity: 0.4;
+}
+#caption{
+  position: absolute;
+  left: 60%;
+  top: 10px;
+ font-weight: bold;
+}
+
+td{
+    padding-left:65px;
+  padding-top:10px;
+}
+
+#caption{
+  position: absolute;
+  left: 60%;
+  top: 20px;
+ font-weight: bold;
+}
+
+.seoulinfo{
+  position:absolute;
+  left:67px;
+  width:270px; 
+  height:130px; 
+  background:#FFF; 
+  opacity:0;
+  font-color:black;
+
+}
+
+#seoul:hover .seoulinfo{
+ position:absolute;
+ left:67px;
+ opacity:0.4;
+ text-align:center; 
+ font-size:20px; 
+ padding-top:50px;
+ font-weight:bold;
+ 
+}
+
+.seoul2info{
+  position:absolute;
+  left:410px;
+  width:270px; 
+  height:130px; 
+  background:#FFF; 
+  opacity:0;
+  font-color:black;
+
+}
+
+#seoul2:hover .seoul2info{
+ position:absolute;
+ left:410px;
+ opacity:0.4;
+ text-align:center; 
+ font-size:20px; 
+ padding-top:50px;
+ font-weight:bold;
+}
+
+.jeju3info{
+  position:absolute;
+  left:410px;
+  width:270px; 
+  height:130px; 
+  background:#FFF; 
+  opacity:0;
+  font-color:black;
+
+}
+
+#jeju3:hover .jeju3info{
+ position:absolute;
+ left:410px;
+ opacity:0.4;
+ text-align:center; 
+ font-size:20px; 
+ padding-top:50px;
+ font-weight:bold;
+}
+
+.kyeonggiinfo{
+  position:absolute;
+  left:67px;
+  width:270px; 
+  height:130px; 
+  background:#FFF; 
+  opacity:0;
+  font-color:black;
+
+}
+
+#kyeonggi:hover .kyeonggiinfo{
+ position:absolute;
+ left:67px;
+ opacity:0.4;
+ text-align:center; 
+ font-size:20px; 
+ padding-top:50px;
+ font-weight:bold;
+}
+
+.chungcheonginfo{
+  position:absolute;
+  left:410px;
+  width:270px; 
+  height:130px; 
+  background:#FFF; 
+  opacity:0;
+  font-color:black;
+
+}
+
+#chungcheong:hover .chungcheonginfo{
+ position:absolute;
+ left:410px;
+ opacity:0.4;
+ text-align:center; 
+ font-size:20px; 
+ padding-top:50px;
+ font-weight:bold;
+}
+
+.jeonlainfo{
+  position:absolute;
+  left:67px;
+  width:270px; 
+  height:130px; 
+  background:#FFF; 
+  opacity:0;
+  font-color:black;
+
+}
+
+#jeonla:hover .jeonlainfo{
+ position:absolute;
+ left:67px;
+ opacity:0.4;
+ text-align:center; 
+ font-size:20px; 
+ padding-top:50px;
+ font-weight:bold;
+}
+
+.kyeongsanginfo{
+  position:absolute;
+  left:410px;
+  width:270px; 
+  height:130px; 
+  background:#FFF; 
+  opacity:0;
+  font-color:black;
+
+}
+
+#kyeongsang:hover .kyeongsanginfo{
+ position:absolute;
+ left:410px;
+ opacity:0.4;
+ text-align:center; 
+ font-size:20px; 
+ padding-top:50px;
+ font-weight:bold;
+}
+
+.kangwoninfo{
+  position:absolute;
+  left:67px;
+  width:270px; 
+  height:130px; 
+  background:#FFF; 
+  opacity:0;
+  font-color:black;
+
+}
+
+#kangwon:hover .kangwoninfo{
+ position:absolute;
+ left:67px;
+ opacity:0.4;
+ text-align:center; 
+ font-size:20px; 
+ padding-top:50px;
+ font-weight:bold;
+}
+
+.jejuinfo{
+  position:absolute;
+  left:410px;
+  width:270px; 
+  height:130px; 
+  background:#FFF; 
+  opacity:0;
+  font-color:black;
+
+}
+#jeju:hover .jejuinfo{
+ position:absolute;
+ left:410px;
+ opacity:0.4;
+ text-align:center; 
+ font-size:20px; 
+ padding-top:50px;
+ font-weight:bold;
+}
+
+#info img{
+  width:270px;
+  height:180px;}
+
+
+
+}
