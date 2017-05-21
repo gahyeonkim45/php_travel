@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OuiCal
 
 A simple JS library that enables you to add an "add to calendar" button for your upcoming events.
@@ -69,3 +70,7 @@ Need to generate an add-to-calendar widget on the fly? No problem, [go here](htt
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
+=======
+# php_travel
+3-1 소앱프 여가생활 관련 과제
+>>>>>>> be8cb91544d89fb85714f687ecf86748c4932545
